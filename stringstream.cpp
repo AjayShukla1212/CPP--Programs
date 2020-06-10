@@ -1,13 +1,22 @@
-// #include<iostream>
-// #include<sstream>
-// using namespace std;
-// int main(){
-//   stringstream ss("23,4,56");
-//   char ch ;
-//   int a,b,c;
-//   ss >>a >>ch >>b >>ch >>c;
-//   cout <<a <<" "<<b<<" "<<c <<" "<<ch;
-// }
+/*Input Format
+
+The first and only line consists of n integers separated by commas.
+
+Output Format
+
+Print the integers after parsing it.
+
+P.S.: I/O will be automatically handled. You need to complete the function only.
+
+Sample Input
+
+23,4,56
+
+Sample Output
+
+23
+4
+56 */
 
 #include <sstream>
 #include <vector>
@@ -15,7 +24,7 @@
 using namespace std;
 
 vector<int> parseInts(string str) {
-	// Complete this function
+	
     stringstream ss(str);
     vector <int>v;
     char ch;
