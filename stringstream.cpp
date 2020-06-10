@@ -24,7 +24,7 @@ Sample Output
 using namespace std;
 
 vector<int> parseInts(string str) {
-	
+
     stringstream ss(str);
     vector <int>v;
     char ch;
