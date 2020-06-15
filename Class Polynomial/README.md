@@ -46,11 +46,17 @@ Line 7 : Integer C, choice representing the function to be called (See main for 
 
 Sample Input 1 :
 3
+
 1 3 5
+
 1 2 -4
+
 4
+
 0 1 2 3
+
 4 2 -3 1
+
 1
 
 Sample Output 1 :
@@ -59,11 +65,17 @@ Sample Output 1 :
 
 Sample Input 2 :
 3
+
 1 3 5
+
 1 2 -4
+
 4
+
 0 1 2 3
+
 4 2 -3 1
+
 2
 
 Sample Output 2 :
@@ -72,11 +84,17 @@ Sample Output 2 :
 
 Sample Input 3 :
 3
+
 1 3 5
+
 1 2 -4
+
 4
+
 0 1 2 3
+
 4 2 -3 1
+
 3
 
 Sample Output 3 :
