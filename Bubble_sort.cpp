@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void BubbleSort(int a[], int n){
+void bubbleSort(int a[], int n){
 	// Write your code here
 
     for(int i=0;i<n-1;i++)
