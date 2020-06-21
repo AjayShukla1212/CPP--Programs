@@ -101,6 +101,8 @@ Node *insert(Node *head,int i,int data)
 //   return head;
 // }
 
+// DeleteNode Function Recursively
+
 Node *deleteNode(Node *head,int i){
   if(head==NULL){
     return head;
