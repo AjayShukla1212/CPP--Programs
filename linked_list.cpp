@@ -37,28 +37,6 @@ Node* takeinput(){
   return head;
 }
 
-// Node* insert(Node *head,int pos,int data){
-//   Node *newNode = new Node(data);
-//   int count =0;
-//   Node *temp = head;
-//   if(pos == 0)
-//   {
-//     newNode->next = head;
-//     head = newNode;
-//     return head;
-//   }
-//   while(temp!=NULL && count< pos-1) //i ke pehle tk jaane ke liye
-//   {
-//     temp = temp->next;
-//     count++;
-//   }
-//   if(temp!= NULL)                 // insertion krne ka
-//   {
-//     newNode->next = temp->next;
-//     temp->next = newNode;
-//   }
-//   return head;
-// }
 
 //Recursively Inserting The Node
 
