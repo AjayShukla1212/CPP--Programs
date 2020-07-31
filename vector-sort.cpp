@@ -14,6 +14,7 @@ int main()
     cin >>temp[i];
     v.push_back(temp[i]);
   }
+  //Sorting Done !!
   cout <<"The Given Numbers After Sorting : ";
    sort(v.begin(), v.end());
    for(int i=0;i<n;i++)
